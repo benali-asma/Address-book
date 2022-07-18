@@ -1,0 +1,54 @@
+
+body{
+  background: darkgray;
+}
+.card{
+  background-color: currentcolor;
+  
+}
+
+
+main.container__clz {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 2.6fr 0.2fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+      "header"
+      "main"
+      "footer";
+      
+}
+
+.centered_grid__clz {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-items: center;
+  color: cadetblue;
+  
+  
+}
+
+header {
+  grid-area: header;
+
+}
+.card {
+  height: 498px;
+  width: 395px;
+  margin-top: 114px;
+  
+}
+section {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  margin-top: 262px;
+  margin-left: 89px;
+  color: cadetblue;
+  
+}

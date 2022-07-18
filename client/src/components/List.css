@@ -1,0 +1,24 @@
+th{
+    color:currentcolor;
+    font-size:1.7rem;
+}
+td{
+    color: rgb(0, 59, 185);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+.btne{
+    font-size: 1.2rem;
+    margin-top: auto;
+    background-color: rgb(247, 160, 0);
+}
+
+.btnn{
+    font-size: 1.2rem;
+    margin-top: auto;
+    background-color: red;
+}
+table{
+    margin-left: -110px;
+}

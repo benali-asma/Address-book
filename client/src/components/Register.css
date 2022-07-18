@@ -1,0 +1,57 @@
+body{
+    background: darkgray;
+  }
+  .card{
+    background-color: currentcolor;
+  }
+  
+  main.container__clz {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 2.6fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+        
+  }
+  .btn{
+
+    margin-left: 122px;
+    margin-top: 45px;
+
+}
+  
+  .centered_grid__clz {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    color: cadetblue;
+    
+    
+  }
+  
+  header {
+    grid-area: header;
+  
+  }
+  .card {
+    height: 606px;
+    width: 400px;
+    margin-top: 53px;
+    
+  }
+  section {
+    grid-area: main;
+  }
+  
+  footer {
+    grid-area: footer;
+    margin-top: 257px;
+    margin-left: 89px;
+    color: cadetblue;
+    
+  }
