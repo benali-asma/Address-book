@@ -1,54 +1,91 @@
-
-body{
-  background: darkgray;
-}
-.card{
-  background-color: currentcolor;
-  
-}
-
-
-main.container__clz {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.2fr 2.6fr 0.2fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-      "header"
-      "main"
-      "footer";
-      
-}
-
-.centered_grid__clz {
-  display: grid;
-  grid-auto-flow: column;
+.container {
+  display: flex;
   align-items: center;
-  justify-items: center;
-  color: cadetblue;
-  
-  
+  justify-content: center;
+  min-height: 5vh;
+  max-width: 300px;
 }
 
-header {
-  grid-area: header;
+.screen {
+  background: linear-gradient(90deg, #cccbce, #cccbce);
+  position: relative;
+  align-items: center;
+  height: 550px;
+  width: 360px;
+  padding-left: 20px;
+  padding-top: 30px;
+  box-shadow: 0px 0px 24px #5C5696;
 
 }
-.card {
-  height: 498px;
-  width: 395px;
-  margin-top: 114px;
-  
-}
-section {
-  grid-area: main;
+
+.screen__content {
+  z-index: 1;
+  position: relative;
+  height: 100%;
 }
 
-footer {
-  grid-area: footer;
-  margin-top: 262px;
-  margin-left: 89px;
-  color: cadetblue;
-  
+.screen__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  -webkit-clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);
+}
+
+.screen__background__shape {
+  transform: rotate(45deg);
+  position: absolute;
+}
+
+.screen__background__shape1 {
+  height: 520px;
+  width: 520px;
+  background: #FFF;
+  top: -50px;
+  right: 120px;
+  border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+  height: 220px;
+  width: 220px;
+  background: #6C63AC;
+  top: -172px;
+  right: 0;
+  border-radius: 32px;
+}
+
+.screen__background__shape3 {
+  height: 300px;
+  width: 190px;
+  background: linear-gradient(270deg, #5D54A4, #6A679E);
+  top: -24px;
+  right: 0;
+  border-radius: 32px;
+}
+
+.screen__background__shape4 {
+  height: 400px;
+  width: 200px;
+  background: #7E7BB9;
+  top: 420px;
+  right: 50px;
+  border-radius: 60px;
+}
+.bienvenue{
+
+  background-color: #37a9ed;
+  margin-left: 600px;
+  color: #2d2525;
+  font-size: 59px;
+  width: 40px;
+  transition: all 0.4s ease 0s;
+  font-family: "Raleway", sans-serif;
+font-weight: 300;
+}
+.bet{
+  width: 200px;
 }
