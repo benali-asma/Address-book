@@ -1,3 +1,4 @@
+
 th{
     color:currentcolor;
     font-size:1.7rem;
@@ -20,5 +21,9 @@ td{
     background-color: red;
 }
 table{
-    margin-left: -110px;
+    margin-left: auto;
+
+}
+body{
+  background-color:rgb(199 205 214);
 }

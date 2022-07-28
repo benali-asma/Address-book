@@ -1,8 +1,8 @@
 body{
-    background: darkgray;
+    background: rgb(255, 255, 255);
   }
   .card{
-    background-color: currentcolor;
+    background-color: #a9b3c5;
   }
   
   main.container__clz {
@@ -20,7 +20,7 @@ body{
   .btn{
 
     margin-left: 122px;
-    margin-top: 45px;
+    margin-top: auto;
 
 }
   
@@ -29,7 +29,7 @@ body{
     grid-auto-flow: column;
     align-items: center;
     justify-items: center;
-    color: cadetblue;
+    color: #0f2c2d;
     
     
   }
@@ -52,6 +52,6 @@ body{
     grid-area: footer;
     margin-top: 257px;
     margin-left: 89px;
-    color: cadetblue;
+    color: #0f2c2d;
     
   }
